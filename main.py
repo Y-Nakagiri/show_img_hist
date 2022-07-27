@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://www.nagoya-info.jp/upload/spots/large/9250743815e41121f4ab73.jpg'
 
-im = imread(img_url)
+im = imread(img_url))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
