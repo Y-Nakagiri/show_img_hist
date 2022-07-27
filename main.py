@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
+img_url = 'https://www.bing.com/images/search?view=detailV2&ccid=fuCb7wnv&id=69A2BF09FC9E5B1F83B4B24AE32858ABC900C7F1&thid=OIP.fuCb7wnvVw2X9W2AMP2wwwHaFj&mediaurl=https%3a%2f%2faichinavi.jp%2fupload%2fspot_images%2f59452062a560b2d7dcd24dfc7c8c4622.jpg&exph=900&expw=1200&q=%e7%8a%ac%e5%b1%b1%e5%9f%8e&simid=607996562979506165&FORM=IRPRST&ck=7E9A88D4CDA001D82CAF2723D112A91A&selectedIndex=6&ajaxhist=0&ajaxserp=0'
 
 im = imread(img_url)
 
